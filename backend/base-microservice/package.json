@@ -1,0 +1,6 @@
+{
+  "name": "base-microservice",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

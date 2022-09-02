@@ -3,10 +3,13 @@
   "packageManager": "yarn@3.2.3",
   "private": true,
   "workspaces": [
+    "backend/*",
+    "frontend",
     "packages/*"
   ],
   "devDependencies": {
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "typescript": "~4.7.2"
   },
   "config": {
     "commitizen": {
