@@ -3,27 +3,32 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "app1": {
+    "vine": {
       "projectType": "application",
-      "schematics": {},
-      "root": "projects/app1",
-      "sourceRoot": "projects/app1/src",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
+      "root": "projects/vine",
+      "sourceRoot": "projects/vine/src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/app1",
-            "index": "projects/app1/src/index.html",
-            "main": "projects/app1/src/main.ts",
-            "polyfills": "projects/app1/src/polyfills.ts",
-            "tsConfig": "projects/app1/tsconfig.app.json",
+            "outputPath": "dist/vine",
+            "index": "projects/vine/src/index.html",
+            "main": "projects/vine/src/main.ts",
+            "polyfills": "projects/vine/src/polyfills.ts",
+            "tsConfig": "projects/vine/tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
             "assets": [
-              "projects/app1/src/favicon.ico",
-              "projects/app1/src/assets"
+              "projects/vine/src/favicon.ico",
+              "projects/vine/src/assets"
             ],
             "styles": [
-              "projects/app1/src/styles.css"
+              "projects/vine/src/styles.scss"
             ],
             "scripts": []
           },
@@ -43,8 +48,8 @@
               ],
               "fileReplacements": [
                 {
-                  "replace": "projects/app1/src/environments/environment.ts",
-                  "with": "projects/app1/src/environments/environment.prod.ts"
+                  "replace": "projects/vine/src/environments/environment.ts",
+                  "with": "projects/vine/src/environments/environment.prod.ts"
                 }
               ],
               "outputHashing": "all"
@@ -64,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "app1:build:production"
+              "browserTarget": "vine:build:production"
             },
             "development": {
-              "browserTarget": "app1:build:development"
+              "browserTarget": "vine:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,22 +80,23 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "app1:build"
+            "browserTarget": "vine:build"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/app1/src/test.ts",
-            "polyfills": "projects/app1/src/polyfills.ts",
-            "tsConfig": "projects/app1/tsconfig.spec.json",
-            "karmaConfig": "projects/app1/karma.conf.js",
+            "main": "projects/vine/src/test.ts",
+            "polyfills": "projects/vine/src/polyfills.ts",
+            "tsConfig": "projects/vine/tsconfig.spec.json",
+            "karmaConfig": "projects/vine/karma.conf.js",
+            "inlineStyleLanguage": "scss",
             "assets": [
-              "projects/app1/src/favicon.ico",
-              "projects/app1/src/assets"
+              "projects/vine/src/favicon.ico",
+              "projects/vine/src/assets"
             ],
             "styles": [
-              "projects/app1/src/styles.css"
+              "projects/vine/src/styles.scss"
             ],
             "scripts": []
           }
