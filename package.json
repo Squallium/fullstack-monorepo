@@ -9,6 +9,7 @@
   ],
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",
+    "lerna": "^5.5.0",
     "typescript": "~4.7.2"
   },
   "config": {

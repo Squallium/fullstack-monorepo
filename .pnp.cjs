@@ -44,6 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["cz-conventional-changelog", "npm:3.3.0"],\
+            ["lerna", "npm:5.5.0"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=a1c5e5"]\
           ],\
           "linkType": "SOFT"\
@@ -4365,7 +4366,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mkdirp", "npm:1.0.4"],\
             ["npm-pick-manifest", "npm:7.0.2"],\
             ["proc-log", "npm:2.0.1"],\
-            ["promise-inflight", "virtual:c52c9816429d23c87345343f530e61b8422b7c73f478fb86bee0fffaed11f6deffc2b9cf7f000cba44eb934dd21000a03e0f400cce114b2c16323fe2b604dd83#npm:1.0.1"],\
+            ["promise-inflight", "virtual:4e2088ed0df52533102f445d7e7aeba6560b7effa0cabbc7cc20dd1e36a86dd838cc541de4414688f4ce3ec77b0ad5298cea6de581350d934ceb35c3e0fe3462#npm:1.0.1"],\
             ["promise-retry", "npm:2.0.1"],\
             ["semver", "npm:7.3.7"],\
             ["which", "npm:2.0.2"]\
@@ -6186,7 +6187,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["minipass-pipeline", "npm:1.2.4"],\
             ["mkdirp", "npm:1.0.4"],\
             ["p-map", "npm:4.0.0"],\
-            ["promise-inflight", "virtual:c52c9816429d23c87345343f530e61b8422b7c73f478fb86bee0fffaed11f6deffc2b9cf7f000cba44eb934dd21000a03e0f400cce114b2c16323fe2b604dd83#npm:1.0.1"],\
+            ["promise-inflight", "virtual:4e2088ed0df52533102f445d7e7aeba6560b7effa0cabbc7cc20dd1e36a86dd838cc541de4414688f4ce3ec77b0ad5298cea6de581350d934ceb35c3e0fe3462#npm:1.0.1"],\
             ["rimraf", "npm:3.0.2"],\
             ["ssri", "npm:9.0.1"],\
             ["tar", "npm:6.1.11"],\
@@ -6211,7 +6212,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["minipass-pipeline", "npm:1.2.4"],\
             ["mkdirp", "npm:1.0.4"],\
             ["p-map", "npm:4.0.0"],\
-            ["promise-inflight", "virtual:c52c9816429d23c87345343f530e61b8422b7c73f478fb86bee0fffaed11f6deffc2b9cf7f000cba44eb934dd21000a03e0f400cce114b2c16323fe2b604dd83#npm:1.0.1"],\
+            ["promise-inflight", "virtual:4e2088ed0df52533102f445d7e7aeba6560b7effa0cabbc7cc20dd1e36a86dd838cc541de4414688f4ce3ec77b0ad5298cea6de581350d934ceb35c3e0fe3462#npm:1.0.1"],\
             ["rimraf", "npm:3.0.2"],\
             ["ssri", "npm:9.0.1"],\
             ["tar", "npm:6.1.11"],\
@@ -8660,7 +8661,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["karma-coverage", "npm:2.2.0"],\
             ["karma-jasmine", "virtual:129c180801e06ed395e4da371c76ab19371e66a3c2230c25e2f8aa53715d8f66998096a34403ac325c10f7034d54eaa1a82bf612b0d4bf56a1d1943388d98f11#npm:5.1.0"],\
             ["karma-jasmine-html-reporter", "virtual:129c180801e06ed395e4da371c76ab19371e66a3c2230c25e2f8aa53715d8f66998096a34403ac325c10f7034d54eaa1a82bf612b0d4bf56a1d1943388d98f11#npm:2.0.0"],\
-            ["lerna", "npm:5.5.0"],\
             ["ng-packagr", "virtual:129c180801e06ed395e4da371c76ab19371e66a3c2230c25e2f8aa53715d8f66998096a34403ac325c10f7034d54eaa1a82bf612b0d4bf56a1d1943388d98f11#npm:14.2.0"],\
             ["rxjs", "npm:7.5.6"],\
             ["tslib", "npm:2.4.0"],\
@@ -8756,6 +8756,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["fullstack-monorepo", "workspace:."],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
+            ["lerna", "npm:5.5.0"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=a1c5e5"]\
           ],\
           "linkType": "SOFT"\
@@ -13140,10 +13141,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:c52c9816429d23c87345343f530e61b8422b7c73f478fb86bee0fffaed11f6deffc2b9cf7f000cba44eb934dd21000a03e0f400cce114b2c16323fe2b604dd83#npm:1.0.1", {\
-          "packageLocation": "./.yarn/__virtual__/promise-inflight-virtual-f739df099c/0/cache/promise-inflight-npm-1.0.1-5bb925afac-2274948309.zip/node_modules/promise-inflight/",\
+        ["virtual:4e2088ed0df52533102f445d7e7aeba6560b7effa0cabbc7cc20dd1e36a86dd838cc541de4414688f4ce3ec77b0ad5298cea6de581350d934ceb35c3e0fe3462#npm:1.0.1", {\
+          "packageLocation": "./.yarn/__virtual__/promise-inflight-virtual-faec2dbb37/0/cache/promise-inflight-npm-1.0.1-5bb925afac-2274948309.zip/node_modules/promise-inflight/",\
           "packageDependencies": [\
-            ["promise-inflight", "virtual:c52c9816429d23c87345343f530e61b8422b7c73f478fb86bee0fffaed11f6deffc2b9cf7f000cba44eb934dd21000a03e0f400cce114b2c16323fe2b604dd83#npm:1.0.1"],\
+            ["promise-inflight", "virtual:4e2088ed0df52533102f445d7e7aeba6560b7effa0cabbc7cc20dd1e36a86dd838cc541de4414688f4ce3ec77b0ad5298cea6de581350d934ceb35c3e0fe3462#npm:1.0.1"],\
             ["@types/bluebird", null],\
             ["bluebird", null]\
           ],\
