@@ -8661,6 +8661,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["karma-coverage", "npm:2.2.0"],\
             ["karma-jasmine", "virtual:129c180801e06ed395e4da371c76ab19371e66a3c2230c25e2f8aa53715d8f66998096a34403ac325c10f7034d54eaa1a82bf612b0d4bf56a1d1943388d98f11#npm:5.1.0"],\
             ["karma-jasmine-html-reporter", "virtual:129c180801e06ed395e4da371c76ab19371e66a3c2230c25e2f8aa53715d8f66998096a34403ac325c10f7034d54eaa1a82bf612b0d4bf56a1d1943388d98f11#npm:2.0.0"],\
+            ["lerna", "npm:5.5.0"],\
             ["ng-packagr", "virtual:129c180801e06ed395e4da371c76ab19371e66a3c2230c25e2f8aa53715d8f66998096a34403ac325c10f7034d54eaa1a82bf612b0d4bf56a1d1943388d98f11#npm:14.2.0"],\
             ["rxjs", "npm:7.5.6"],\
             ["tslib", "npm:2.4.0"],\
